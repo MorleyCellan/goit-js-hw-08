@@ -37,7 +37,6 @@ function onFormSubmit(e) {
 
   if (email == '' || message == '') {
     alert('Enter form details');
-    form.reset();
     return;
   }
   form.reset();
